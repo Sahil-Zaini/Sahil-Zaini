@@ -24,7 +24,20 @@
 ## 📡 Live ledger
 
 <!-- LEDGER:START -->
-<sub>This block fills itself in on the first run of the <b>Live ledger</b> workflow.</sub>
+| 📦 Public repos | ⭐ Total stars | 🧾 Days to UAE e-invoicing go-live* | 🕒 Updated (Dubai) |
+|:---:|:---:|:---:|:---:|
+| **4** | **1** | **73** | 19 Oct 2026, 22:53 |
+
+**Recently shipped**
+
+| Repo | What | Stars | Last push |
+|---|---|:---:|:---:|
+| [`desk-pet`](https://github.com/Sahil-Zaini/desk-pet) | A tiny pixel pet that lives on your website 🐾 One line of code: it wal | ⭐ 1 | 1d ago |
+| [`life-in-weeks`](https://github.com/Sahil-Zaini/life-in-weeks) | Your whole life on one page — every box is one week. | ⭐ 0 | 2d ago |
+| [`pint-ae`](https://github.com/Sahil-Zaini/pint-ae) | Generate and validate UAE e-invoices (PINT AE / Peppol UBL 2.1) in pla | ⭐ 0 | 2d ago |
+| [`devwrapped`](https://github.com/Sahil-Zaini/devwrapped) | — | ⭐ 0 | 6d ago |
+
+<sub>*First mandatory phase for large businesses, 1 Jan 2027. This block rewrites itself every day via GitHub Actions.</sub>
 <!-- LEDGER:END -->
 
 ## ⭐ Open source
