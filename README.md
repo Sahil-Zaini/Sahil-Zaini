@@ -7,7 +7,6 @@
   <a href="https://zainidevelopers.com"><img src="https://img.shields.io/badge/zainidevelopers.com-0b6e4f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="mailto:info@zainidevelopers.com"><img src="https://img.shields.io/badge/info@zainidevelopers.com-1a7f37?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
   <a href="https://zainidevelopers.com/demo"><img src="https://img.shields.io/badge/Live%20demos-39d353?style=for-the-badge&logo=rocket&logoColor=0b1f16" alt="Live demos"></a>
-  <img src="https://komarev.com/ghpvc/?username=Sahil-Zaini&style=for-the-badge&color=0b6e4f&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
 <p align="center">
