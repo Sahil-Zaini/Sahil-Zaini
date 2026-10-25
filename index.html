@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subscription Leak</title>
+<meta name="description" content="Paste your bank statement. Find every subscription silently draining your money. 100% private — nothing ever leaves your browser.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕵️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="case-no mono">CASE FILE Nº 001 — RECURRING CHARGES</div>
+    <h1 class="title">Subscription<br><span class="title-leak">Leak<span class="drip" aria-hidden="true"></span></span></h1>
+    <p class="tagline">Your bank statement is hiding something. Paste it below and find every
+      subscription quietly draining your account — the ones you forgot, the trials that never ended,
+      the apps you haven't opened since 2023.</p>
+    <div class="privacy-strip mono">
+      <span class="dot" aria-hidden="true"></span>
+      100% PRIVATE · RUNS ENTIRELY IN YOUR BROWSER · NOTHING IS UPLOADED, STORED, OR SENT. EVER.
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- INPUT -->
+  <section class="panel input-panel" id="input-panel">
+    <div class="panel-head">
+      <span class="step mono">EVIDENCE INTAKE</span>
+      <h2>Submit the statement</h2>
+    </div>
+    <p class="hint">Copy-paste transactions from your bank / card statement (any messy format works),
+      or drop a CSV export. Dates + descriptions + amounts is all it needs.</p>
+
+    <div class="dropzone" id="dropzone">
+      <textarea id="stmt" class="mono" spellcheck="false"
+        placeholder="Paste your statement here… e.g.
+
+03/01/2026  NETFLIX.COM            -15.49
+03/02/2026  SPOTIFY P1A2B3         -11.99
+03/04/2026  POS GYMCO MEMBERSHIP   -34.00
+…or drag & drop a .csv export from your bank"></textarea>
+      <div class="drop-hint mono" id="drop-hint">RELEASE TO SUBMIT EVIDENCE</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn-primary" id="analyze">
+        <span class="btn-label">OPEN INVESTIGATION</span>
+        <span class="btn-sub mono">analyze statement →</span>
+      </button>
+      <button class="btn-ghost mono" id="demo">no statement handy? run the demo case</button>
+      <label class="btn-ghost mono file-label">upload .csv
+        <input type="file" id="csvfile" accept=".csv,.txt,.tsv" hidden>
+      </label>
+    </div>
+    <p class="error mono" id="parse-error" hidden></p>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="results" id="results" hidden>
+
+    <div class="verdict-wrap">
+      <div class="stamp" id="stamp" aria-hidden="true">LEAK<br>CONFIRMED</div>
+      <div class="verdict panel">
+        <div class="panel-head">
+          <span class="step mono">FINDINGS</span>
+          <h2 id="verdict-title">The damage</h2>
+        </div>
+        <div class="big-number-row">
+          <div class="big-number">
+            <span class="currency" id="cur-sym">$</span><span id="monthly-total">0</span>
+            <span class="per mono">/MONTH</span>
+          </div>
+        </div>
+        <div class="yearly mono">THAT'S <strong id="yearly-total">$0</strong> PER YEAR, BLEEDING OUT ON AUTOPILOT.</div>
+        <ul class="equivalents mono" id="equivalents"></ul>
+      </div>
+    </div>
+
+    <div class="panel suspects-panel">
+      <div class="panel-head">
+        <span class="step mono">THE SUSPECTS</span>
+        <h2><span id="suspect-count">0</span> recurring charges identified</h2>
+      </div>
+      <div class="suspects" id="suspects"></div>
+    </div>
+
+    <div class="panel share-panel">
+      <div class="panel-head">
+        <span class="step mono">CLOSING THE CASE</span>
+        <h2>Expose the leak</h2>
+      </div>
+      <p class="hint">Download your case card and post it. Everyone thinks they're the exception.
+        Nobody is.</p>
+      <canvas id="share-canvas" width="1080" height="1350" hidden></canvas>
+      <div class="share-preview-wrap"><img id="share-preview" alt="Your leak report card"></div>
+      <div class="actions">
+        <button class="btn-primary" id="download-card">
+          <span class="btn-label">DOWNLOAD CASE CARD</span>
+          <span class="btn-sub mono">1080×1350 png, story-ready</span>
+        </button>
+        <button class="btn-ghost mono" id="restart">investigate another statement</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="mono">
+  <span>SUBSCRIPTION LEAK — a free, open, zero-tracking forensic tool.</span>
+  <span>Your data never leaves this page. Close the tab and it's gone.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
