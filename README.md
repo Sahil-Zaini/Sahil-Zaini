@@ -25,17 +25,17 @@
 <!-- LEDGER:START -->
 | 📦 Public repos | ⭐ Total stars | 🧾 Days to UAE e-invoicing go-live* | 🕒 Updated (Dubai) |
 |:---:|:---:|:---:|:---:|
-| **5** | **0** | **58** | 03 Nov 2026, 06:37 |
+| **5** | **0** | **57** | 04 Nov 2026, 04:50 |
 
 **Recently shipped**
 
 | Repo | What | Stars | Last push |
 |---|---|:---:|:---:|
-| [`subscription-leak`](https://github.com/Sahil-Zaini/subscription-leak) | — | ⭐ 0 | 8d ago |
-| [`desk-pet`](https://github.com/Sahil-Zaini/desk-pet) | A tiny pixel pet that lives on your website 🐾 One line of code: it wal | ⭐ 0 | 16d ago |
-| [`life-in-weeks`](https://github.com/Sahil-Zaini/life-in-weeks) | Your whole life on one page — every box is one week. | ⭐ 0 | 16d ago |
-| [`pint-ae`](https://github.com/Sahil-Zaini/pint-ae) | Generate and validate UAE e-invoices (PINT AE / Peppol UBL 2.1) in pla | ⭐ 0 | 16d ago |
-| [`devwrapped`](https://github.com/Sahil-Zaini/devwrapped) | — | ⭐ 0 | 20d ago |
+| [`subscription-leak`](https://github.com/Sahil-Zaini/subscription-leak) | — | ⭐ 0 | 9d ago |
+| [`desk-pet`](https://github.com/Sahil-Zaini/desk-pet) | A tiny pixel pet that lives on your website 🐾 One line of code: it wal | ⭐ 0 | 17d ago |
+| [`life-in-weeks`](https://github.com/Sahil-Zaini/life-in-weeks) | Your whole life on one page — every box is one week. | ⭐ 0 | 17d ago |
+| [`pint-ae`](https://github.com/Sahil-Zaini/pint-ae) | Generate and validate UAE e-invoices (PINT AE / Peppol UBL 2.1) in pla | ⭐ 0 | 17d ago |
+| [`devwrapped`](https://github.com/Sahil-Zaini/devwrapped) | — | ⭐ 0 | 21d ago |
 
 <sub>*First mandatory phase for large businesses, 1 Jan 2027. This block rewrites itself every day via GitHub Actions.</sub>
 <!-- LEDGER:END -->
